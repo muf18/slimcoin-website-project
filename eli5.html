@@ -128,72 +128,72 @@ body {
                 
             
              <h1 class="center aligned ui header">
-           Advantages of Slimcoin
+           What is Proof of Burn - ELI5
         </h1>
           </div></br>
-		  <h1 class="post-title">Slimcoin's advantages</h1>
-		  <h3 id="long-term--stability-oriented">Long-term &amp; stability oriented</h3>
-		  <p>Slimcoin’s Proof or Burn mechanism encourages <strong>long term involvement</strong>. If you burn coins to participate, you automatically become a long term investor: You probably will get back your investment (and possibly make a profit, like in mining), but not in a short period of time, and you must be connected permanently to the network with a full node to get a decent return.</p>
-		  <p>It is like if you are buying a mining rig that only is working for Slimcoin and you cannot re-use it with other cryptocurrencies.</p>
-          <p>This feature is what helped Slimcoin to survive even in its worst phase in early 2016 when it was delisted from all exchanges and its client wasn’t still very stable.</p>
+		 		  <div class="post-content">
+    <p>In this article, we will explain the revolutionary consensus mechanism behind Slimcoin: <strong>Proof of burn</strong>.</p>
+
+<p><em>If you need a super-short explanation, you can go to the <strong><a href="http://slimco.in/proof-of-burn-eli5/#tldr">tl;dr</a></strong> section at the end. Readers that are familiar with Bitcoin’s Proof of Work and <strong>why</strong> it works can skip the first two sections.</em></p>
+
+<h3 id="why-a-consensus-method-is-necessary">Why a consensus method is necessary?</h3>
+
+<p>To understand what is Proof of Burn, first we must understand why cryptocurrencies use a “consensus method”.</p>
+
+<p>First, the basics: The blockchain is the <strong>main database</strong> of a cryptocurrency. It contains all valid transactions.</p>
+
+<p>All nodes - all participants that run a full-featured client software - save the blockchain on their hard disks. It’s called a “blockchain” because the transactions are grouped in <strong>blocks</strong>. A block is written when the nodes agree to a set of transactions that the nodes regard as valid.</p>
+
+<p>But <strong>how do the nodes agree</strong> which transactions should be saved into a block? There is no central authority that validates the transactions, so this work must be done by the nodes in a collaborative way.</p>
+
+<p>The blockchain technology already prevents that some node could create money out of thin air. But there could be dishonest nodes that tried to use a coin twice - this is called a <strong>double spend</strong>. For example, they could buy an item in an online shop and inmediately try to send the same coins to an exchange. This way they could fool the shop owner and the exchange owner and get both things - the bought item and the money.</p>
+
+<p>To <em>prevent double spends</em>, the nodes must <strong>come to an agreement</strong> which transactions are valid and which are not.</p>
+
+<p>On a first glance, we could let the nodes <strong>vote</strong> for which transactions are included into a block, with each node having one vote. But there is a problem: <strong>A malicious participant could create thousands of nodes</strong> and manipulate the vote.</p>
+
+<h3 id="proof-of-work-bitcoins-consensus-mechanism">Proof of work: Bitcoin’s consensus mechanism</h3>
+
+<p>So we need a vote mechanism that is not manipulable by creating more nodes.</p>
+
+<p>In Bitcoin and many other cryptocurrencies, a mechanism called <strong>Proof of work</strong> is used.</p>
+
+<p>We could describe the process the following way: The nodes (<em>miners</em>) compete to write a block into the blockchain. To include a block, their computers must first do some <em>work</em>: they must <strong>solve a difficult cryptographic puzzle</strong>. The node that first solves it gets the right to write the block, and gets a reward for it to incentive this work. This process is colloquially called <strong>mining</strong>.</p>
+
+<p>If you want to <strong>double spend</strong>, you must have the computing power to <strong>write several blocks in a row</strong>. Only this way, you can be sure that both of your transactions are included in the blockchain.</p>
+
+<p>For this to happen, you must have a <strong>lot of computing power</strong> - you can only be sure to write several blocks in a row if you have more than half of the computing power of all nodes of the network (this is the infamous <strong>51% attack</strong>). Double-spending attacks are prevented because it is prohibitively costly to buy the “mining” power to achieve this.</p>
+
+<h3 id="proof-of-burn-proof-of-work-without-energy-waste">Proof of burn: Proof of work without energy waste</h3>
+
+<p>The important thing to understand is that the raw computing power is not important to prevent manipulation by double spending. What is important is the <strong>cost</strong> of the computing power. <strong>It must be costly</strong> for an attacker to achieve the power to <em>mine</em> several blocks in a row.</p>
+
+<p>So in Proof of work, the right to mine blocks is tied to a monetary cost for the miner. <strong>The more a miner pays</strong> for computing equipment that is able to solve the cryptographic puzzle (<em>mining rigs</em>), <strong>the more chances he has</strong> to get the right to mine blocks.</p>
+
+<p>But what if we can have the same effect in a more direct way?</p>
+
+<p>We can mimic this cost letting the nodes “destroy” or “burn” coins, if they want to get the right to write blocks. <strong>That is the principle behind Proof of Burn</strong>. We call it also <strong>minting</strong>, because no real work is done. Remember: all what’s important is the cost of the mechanism.</p>
+
+<p>That sounds crazy. But the brilliant mind that has invented Proof of Burn, Iain Stewart, has provided us an analogy: <strong>Burnt coins are mining rigs!</strong></p>
+
+<p>That means: The act of <em>burning coins</em> can be compared to the act to <em>buy a mining rig</em>. In Proof of Burn, every time you burn coins, you <strong>buy a virtual mining rig</strong> that gives you the power to mine blocks. <strong>The more coins you burn, the bigger that virtual mining rig</strong>.</p>
+
+<p>That’s exactly how Slimcoin’s Proof of Burn mechanism works:</p>
+
+<p>If you burn coins, you <strong>not only</strong> get the right to compete for the next block. A mining rig is something more durable, <strong>and so are Slimcoin’s virtual mining rigs</strong>. You burn coins and this rises your chance to get blocks for a long time - <strong>at least for a year</strong>.</p>
+
+<p>Now, <strong>to prevent early adopters from benefitting too much</strong> or attacking the system , the power of burnt coins <strong>decays</strong> every time a block is mined. It doesn’t decay much, so don’t be afraid - you will have a lot of time. But this also mimics mining: Mining rigs eventually <strong>become obsolete</strong> because there is better technology available. So miners, to stay competitive, will have to renew their equipment sometimes. The same is true for Proof of Burn: if you want to maintain your minting power, you must burn coins periodically.</p>
+
+<p>Like in Proof of Work, the <strong>block rewards are high enough</strong> to allow the participants to make a financial gain (profit) from minting. You won’t get back your investment in one hour or one day, but with some patience, in most situations you’ll eventually <strong>get significantly more coins that the ones you burnt</strong>.</p>
+
+<p>Proof of burn has the advantage over Proof of Work that it does consume much less energy. So Slimcoin is your coin of choice if you ever have worried about Bitcoin’s environmental cost. But Proof of Burn has also advantages over Proof of Stake, another consensus method that minimizes energy use. We will cover this point in a later post.</p>
+
+<h3 id="tldr">Tl;dr (Too long, didn't read)</h3>
+
+<p><strong>Proof of burn works like virtual mining: You buy a virtual mining rig if you burn coins. The more coins you burn, the more powerful the mining rig. Every virtual mining rig gives you the right to mine for a long time, just like real mining rigs. But they eventually lose their power - just like mining rigs that get obsolete because of Moore’s law.</strong></p>
+
+  </div>
 		  
-		  <h3 id="energy-efficient">Energy efficient</h3>
-		  
-		  <p>Slimcoin significantly <strong>reduces energy use</strong> with respect to Bitcoin and other pure Proof of Work currencies, because mining is only responsible for between one third and one half of the blocks.</p>
-		  
-		  <p>Like in Peercoin, the rewards of Proof of Work blocks are gradually reduced when the difficulty increases. That means that the incentive to produce blocks by burning and staking in relation to mining is increasing over time. So it is expected that energy use will decrease gradually.</p>
-
-<h3 id="balanced-power-structure">Balanced power structure</h3>
-
-<p>Slimcoin’s three block generation mechanisms (Proof of Work, Proof of Stake and Proof of Burn) produce three power groups: <strong>miners</strong>, <strong>stakers</strong> and <strong>burners</strong>. Each mechanism is benefitting a distinct group with different incentives.</p>
-
-<ul>
-  <li><strong>Miners</strong> are often short-term involved, as there are no DCrypt ASICs and so they must mine with generic CPUs and GPUs - they can always change to another cryptocurrency. They work as the <strong>clock</strong> of the consensus mechanism: The protocol favours PoW blocks slighltly over other kinds of blocks, so a Proof of Burn block can only be generated after a Proof of Work block, and several Proof of Stake blocks in a row diminish the chain trust value.</li>
-  <li><strong>Stakers</strong> are overlapping with the user group often called <strong>the economy</strong>. They are participants with large holdings and so they are more long term oriented and interested in the development (and favourable price evolution) of the coin. But they in theory could sell their coins in every moment.</li>
-  <li><strong>Burners</strong> are the most long-term oriented group of all, because they have <em>“bought virtual mining rigs”</em> that are only working for Slimcoin and don’t get back their investment very fast. They are interested in a stable or rising price. In contrast to stakers, they are rewarded for taking a risk.</li>
-</ul>
-
-<p>These three power groups avoid the power imbalance that is obvious in pure Proof of Work currencies, where miners have a large degree of influence on development decisions (see Bitcoin’s Segwit drama for it) and also pure Proof of Stake currencies, where large service providers like exchanges, payment processors and online wallet operators have a large share of the power.</p>
-
-<h3 id="asic-unfriendly-proof-of-work">ASIC unfriendly proof-of-work</h3>
-
-<p>It is believed that ASICs are the tool that lead to centralization in most Proof-of-work cryptocurrencies. In Bitcoin, mining is only profitable if you own large ASIC farms.</p>
-
-<p>Slimcoin’s DCrypt Proof of work algorithm is ASIC unfriendly, so it’s mostly mined by CPUs and GPUs. It is difficult to parallelize. See the Whitepaper for more information.</p>
-
-<h3 id="pos-501-attack-and-nothing-at-stake-attack-protection">PoS 50%+1 attack and Nothing at Stake attack protection</h3>
-
-<p>Pure Proof of Stake currencies can be attacked by users that hold a large amount of currency and “mint” with it, creating an attack chain which can be used for double spends. The necessary holdings for an attack are even smaller than 50% of the “staking” coins because of the so-called <strong>Nothing at Stake problem</strong>. In naive implementations, there is an incentive for nodes to mint on every fork that is produced. For attackers that means it’s easier to attack the chain with relative low holdings, because they can trick other nodes to mint on an attack chain, until it becomes the “longest” one.</p>
-
-<p>Slimcoin’s blockchain inherited the concept of <strong>chain trust</strong> from Peercoin: Chains accumulate trust with the amount of coin-days “used” in Proof of Stake blocks. The chain with most trust is the “longest chain” all honest clients will follow.</p>
-
-<p>However, Slimcoin’s chain trust algorithm is more complex than Peercoin’s. The trust of a chain decreases if there are two or more PoS blocks in a row. If an attacker wants to reorganize the chain in a malicious way buying a large number of coins and minting on an alternative “attack chain”, his attack chain is limited to a longitude of a few blocks because with the first two PoS blocks in a row the trust will diminish. The honest chain, which has normally relatively evenly distributed PoW, PoS and PoB blocks, will rapidly become the longest chain (chain with most trust) again.</p>
-
-<p>Proof of Burn, as it does not consume external resources, is - in principle - also vulnerable to Nothing at Stake-style attacks. But in Slimcoin an attack via Proof of Burn is impossible: Proof of Work works as a <em>clock</em> for Proof of Burn, and two Proof of Burn blocks can never be generated in a row without a PoW block between them.</p>
-
-<p>For these reasons, an attack is much more complex than in pure PoS currencies: you actually must be at least a very large miner and staker at the same time to have a realistic chance to find various blocks in a row and be able to convince other nodes that your attack chain is the “longest” one.</p>
-
-<p>Additionally, Slimcoin uses the duplicate stake detection mechanism from Peercoin, which punishes minters who are detected to mint on more than one fork.</p>
-
-<h3 id="501-attack-protection">50%+1-attack protection</h3>
-
-<p>On the other hand, the presence of Proof of Burn and Proof of Stake blocks makes it much <strong>more difficult</strong> - if not impossible - to attack the chain via an <strong>50%+1 mining attack</strong>. It is possible to produce various PoW blocks in a row to create an attack chain, but after a certain number without PoS blocks the chain trust diminishes. Honest nodes will then regard the attack chain as “shorter” than the honest chain with a more even PoW/PoS/PoB block distribution.</p>
-
-<h3 id="users-control-the-available-supply">Users control the available supply</h3>
-
-<p>Proof of Burn <strong>allows users to control the available supply</strong> of the currency. In theory, the nodes could burn every coin that is generated and reduce supply nearly to zero, leaving only the block reward mechanism as available supply.</p>
-
-<p>This flexibility has probably consequences that will be investigated in an academic study. If the <strong>supply follows demand</strong> - like some believe - then it’s probable that the price will be more stable. There are several mechanisms that could lead to a higher burning rate when the price per unit is low:</p>
-
-<ol>
-  <li>One unit is <strong>simply cheaper</strong> when price per unit is low - that should incentive more people to burn, even to simply try it out.</li>
-  <li>If you are long term optimist, in low price phases you can get <strong>more potential future rewards with less investment</strong> (more <strong>RoI</strong> measured in “stable” currencies or goods/services)</li>
-  <li>When you burn coins, you send a <strong>bullish signal</strong> to the other participants because you openly do a long term investment and everyone is seeing it. So a large burn transaction can lead to buys on the exchange market.</li>
-  <li>When you burn, you openly <strong>retire the coins from the “sellable supply”</strong>. In low price phases users are incentived to do that to limit supply and produce supply deflation, which is also a bullish signal.</li>
-</ol>
-
-<p>If there are more coins burnt in low price phases than in high price phases, then the supply auto-regulates. The users are then acting like a <strong>completely decentralized</strong> central bank, but within strict limits. They cannot create coins out of thin air or elevate supply, they can only reduce it temporarily. So the positive, stability-rewarding effects should outweigh the “supply volatility”.</p>
-
 		  
         </div>
        
