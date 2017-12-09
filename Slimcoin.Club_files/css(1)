@@ -2,14 +2,6 @@
   font-family: 'Droid Sans Mono';
   font-style: normal;
   font-weight: 400;
-  src: local('Droid Sans Mono Regular'), local('DroidSansMono-Regular'), url(https://web.archive.org/web/20171122232132im_/http://fonts.gstatic.com/s/droidsansmono/v9/ns-m2xQYezAtqh7ai59hJYW_AySPyikQrZReizgrnuw.ttf) format('truetype');
+  src: local('Droid Sans Mono Regular'), local('DroidSansMono-Regular'), url(http://fonts.gstatic.com/s/droidsansmono/v9/ns-m2xQYezAtqh7ai59hJYW_AySPyikQrZReizgrnuw.ttf) format('truetype');
 }
 
-/*
-     FILE ARCHIVED ON 23:21:32 Nov 22, 2017 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 18:42:08 Dec 08, 2017.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
