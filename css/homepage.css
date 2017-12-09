@@ -9,7 +9,7 @@ body {
 }
 
 body {
-  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "PT Sans", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   background: #FFFFFF;
   margin: 0px;
   padding: 0px;
@@ -22,12 +22,12 @@ body {
           UI Overrides
 *******************************/
 #miningtgt, #miningprg, #mininghis {
-  font-family: 'Droid Sans Mono', monospace ;
+  font-family: "PT Sans", 'Droid Sans Mono', monospace ;
   text-align: right;
   font-size : 70%;
 }
 .ui.header {
-  font-family: 'Source Sans Pro', "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "PT Sans", 'Source Sans Pro', "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 .ui.header,
@@ -81,7 +81,7 @@ p a {
 }
 
 .masthead.segment {
-  background-image: url(/web/20171123012839im_/http://www.slimcoin.club/images/bg.jpg);
+  background-image: url(../assets/bg.jpg);
   background-size: cover;
   margin: 0em;
   padding-top: 4rem;
@@ -128,6 +128,10 @@ p a {
   background-color: transparent;
 }
 
+.mobile-only {
+  display: none !important;
+}
+
 /*******************************
           Responsive
 *******************************/
@@ -135,10 +139,44 @@ p a {
 /* Mobile Only */
 
 @media only screen and (max-width : 768px) {
-  .ui.page.grid.segment {
+ .ui.page.grid.segment {
     padding-top: 2rem;
+    padding-bottom: 0rem;
+  }
+
+  .segment-padding {
+    padding-bottom: 2rem !important;
+  }
+
+  .big-for-mobile {
+    font-size: 2em !important;
+  }
+
+  .not-on-mobile {
+    display: none !important;
+  }
+
+  #footer {
     padding-bottom: 2rem;
   }
+
+  #footer .header {
+    font-size: 0.9em;
+  }
+
+  #footer a {
+    font-size: 0.9em;
+  }
+
+  .contact-mobile {
+    float: none !important;
+    text-align: center !important;
+  }
+
+  .mobile-only {
+    display: block !important;
+  }
+
   /*rtl:ignore*/
   .menu .right.menu > .item {
     display: none;
@@ -157,12 +195,18 @@ p a {
   }
 
   .masthead.segment .information {
-    margin-left: 190px;
+    margin-left: 0px;
+    text-align: center;
   }
 
   .masthead.segment .image {
-    bottom: -65px;
+    position: relative;
+    bottom: 0px;
+    left: 50%;
     width: 150px;
+    padding-top: 10px;
+    padding-bottom: 28px;
+    transform: translateX(-75px);
   }
 
   .masthead.segment .button {
@@ -193,12 +237,3 @@ p a {
 @media only screen and (max-width : 1000px) {
 
 }
-
-/*
-     FILE ARCHIVED ON 01:28:39 Nov 23, 2017 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 18:42:07 Dec 08, 2017.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/

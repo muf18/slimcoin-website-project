@@ -3588,8 +3588,8 @@ body > .ui.grid {
 *******************************/
 @font-face {
   font-family: 'Basic Icons';
-  src: url(/web/20171123012832im_/http://www.slimcoin.club/packaged/fonts/basic.icons.eot);
-  src: url(/web/20171123012832im_/http://www.slimcoin.club/packaged/fonts/basic.icons.eot#iefix) format('embedded-opentype'), url(/web/20171123012832im_/http://www.slimcoin.club/packaged/fonts/basic.icons.svg#basic.icons) format('svg'), url(/web/20171123012832im_/http://www.slimcoin.club/packaged/fonts/basic.icons.woff) format('woff'), url(/web/20171123012832im_/http://www.slimcoin.club/packaged/fonts/basic.icons.ttf) format('truetype');
+  src: url(./fonts/basic.icons.eot);
+  src: url(./fonts/basic.icons.eot) format('embedded-opentype'), url(./fonts/basic.icons.svg) format('svg'), url(./fonts/basic.icons.woff) format('woff'), url(./fonts/basic.icons.ttf) format('truetype');
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -6026,8 +6026,8 @@ h5.ui.header {
 *******************************/
 @font-face {
   font-family: 'Icons';
-  src: url(/web/20171123012832im_/http://www.slimcoin.club/packaged/fonts/icons.eot);
-  src: url(/web/20171123012832im_/http://www.slimcoin.club/packaged/fonts/icons.eot#iefix) format('embedded-opentype'), url(/web/20171123012832im_/http://www.slimcoin.club/packaged/fonts/icons.svg#icons) format('svg'), url(/web/20171123012832im_/http://www.slimcoin.club/packaged/fonts/icons.woff) format('woff'), url(/web/20171123012832im_/http://www.slimcoin.club/packaged/fonts/icons.ttf) format('truetype');
+  src: url(./fonts/icons.eot);
+  src: url(./fonts/icons.eot) format('embedded-opentype'), url(./fonts/icons.svg#icons) format('svg'), url(./fonts/icons.woff) format('woff'), url(./fonts/icons.ttf) format('truetype');
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -15378,12 +15378,3 @@ ol.ui.horizontal.list li:before,
 .ui.statistic > .description {
   opacity: 0.8;
 }
-
-/*
-     FILE ARCHIVED ON 01:28:32 Nov 23, 2017 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 18:42:07 Dec 08, 2017.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
